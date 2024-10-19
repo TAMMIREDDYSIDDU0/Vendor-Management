@@ -32,4 +32,9 @@ dummyService:
   port: 8081
   address: 127.0.0.1
 
+#enabling debug logging
+logging:
+  level:
+    com.vendormanagement.rest-demo: DEBUG
+#   root: debug
 

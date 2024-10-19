@@ -1,0 +1,32 @@
+17:01:03.953 [main] INFO  c.v.rest_demo.RestDemoApplication - Starting RestDemoApplication using Java 17.0.9 with PID 14972 (D:\Users\RELIANCE DIGITAL\Springboot Projects\rest-demo\target\classes started by SIDDU in D:\Users\RELIANCE DIGITAL\Springboot Projects\rest-demo)
+17:01:03.955 [main] DEBUG c.v.rest_demo.RestDemoApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+17:01:03.956 [main] INFO  c.v.rest_demo.RestDemoApplication - No active profile set, falling back to 1 default profile: "default"
+17:01:04.970 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:01:05.029 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+17:01:05.762 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:01:05.773 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:01:05.776 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:01:05.776 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+17:01:05.855 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:01:05.856 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1840 ms
+17:01:06.161 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:01:06.293 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+17:01:06.336 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:01:06.795 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:01:06.846 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:01:07.013 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39685204
+17:01:07.015 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:01:07.096 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+17:01:08.311 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:01:08.350 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:01:08.818 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:01:09.684 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/Management-Dashboard'
+17:01:09.807 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:01:09.830 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:01:09.847 [main] INFO  c.v.rest_demo.RestDemoApplication - Started RestDemoApplication in 6.467 seconds (process running for 7.774)
+17:01:10.117 [RMI TCP Connection(2)-192.168.0.105] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:01:10.117 [RMI TCP Connection(2)-192.168.0.105] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:01:10.119 [RMI TCP Connection(2)-192.168.0.105] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+17:02:31.085 [http-nio-8080-exec-1] INFO  c.v.r.service.CloudVendorService - rest-demo.CloudVendorController.getCloudVendorDetails() :: Getting the Vendor Details...
+17:02:36.964 [http-nio-8080-exec-3] INFO  c.v.r.service.CloudVendorService - rest-dem0.CloudVendorController.createCloudVendorDetails() :: Vendor Details Creation Successful...
+17:02:40.515 [http-nio-8080-exec-4] INFO  c.v.r.service.CloudVendorService - rest-dem0.CloudVendorController.updateCloudVendorDetails() :: Vendor Details Updation Successful...
