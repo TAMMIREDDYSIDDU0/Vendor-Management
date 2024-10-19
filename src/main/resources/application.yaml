@@ -8,3 +8,28 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+    properties:
+      hibernate:
+        dialect=org:
+          hibernate:
+            dialect: MySQLDialect
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+management:
+  endpoints:
+    web:
+      base-path: "/Management-Dashboard"
+      exposure:
+        include: "*"
+        exclude: "caches"
+  endpoint:
+    health:
+      show-details: always
+
+#check the health of other service if more no of microservices
+dummyService:
+  port: 8081
+  address: 127.0.0.1
+
+
